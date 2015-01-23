@@ -33,6 +33,12 @@ class Core {
     public function print_http() {
     }
 
+    /*
+     * I would never do this in a PHP application
+     * and would certainly defer to a view or templating system
+     * but as I am building a single file shell
+     * this seems the easiest approach
+     */
     public function print_server_info() {
 	echo '<table class="table table-striped table-bordered table-hover">';
 	echo '<thead>';
